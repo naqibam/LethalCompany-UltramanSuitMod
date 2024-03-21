@@ -1,0 +1,11 @@
+{
+    "name": "Ultraman_Skin",
+    "version_number": "1.6.0",
+    "website_url": "",
+    "description": "Adds new Ultraman suits to Lethal Company",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+		"BunyaPineTree-ModelReplacementAPI-2.3.1",
+        "x753-More_Suits-1.4.1" 
+    ]
+}

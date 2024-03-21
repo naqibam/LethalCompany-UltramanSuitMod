@@ -1,0 +1,16 @@
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\bin\Debug\netstandard2.1\lethal modding we ball.deps.json
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\bin\Debug\netstandard2.1\lethal modding we ball.dll
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\bin\Debug\netstandard2.1\lethal modding we ball.pdb
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\bin\Debug\netstandard2.1\ModelReplacementAPI.dll
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\bin\Debug\netstandard2.1\Unity.InputSystem.dll
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\bin\Debug\netstandard2.1\Unity.InputSystem.ForUI.dll
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\bin\Debug\netstandard2.1\Unity.Netcode.Runtime.dll
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\bin\Debug\netstandard2.1\UnityEngine.UI.dll
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\obj\Debug\netstandard2.1\lethal modding we ball.csproj.AssemblyReference.cache
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\obj\Debug\netstandard2.1\lethal modding we ball.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\obj\Debug\netstandard2.1\lethal modding we ball.AssemblyInfoInputs.cache
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\obj\Debug\netstandard2.1\lethal modding we ball.AssemblyInfo.cs
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\obj\Debug\netstandard2.1\lethal modding we ball.csproj.CoreCompileInputs.cache
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\obj\Debug\netstandard2.1\lethal modding we ball.csproj.CopyComplete
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\obj\Debug\netstandard2.1\lethal modding we ball.dll
+C:\Users\Naqib Mirza\OneDrive\Documents\lethal modding we ball\obj\Debug\netstandard2.1\lethal modding we ball.pdb
