@@ -51,4 +51,12 @@ namespace ModelReplacement
 			return Assets.MainAssetBundle.LoadAsset<GameObject>(model_name);
 		}
 	}
+ 	public class ZERO : BodyReplacementBase
+	{
+		protected override GameObject LoadAssetsAndReturnModel()
+		{
+			string model_name = "Zero";
+			return Assets.MainAssetBundle.LoadAsset<GameObject>(model_name);
+		}
+	}
 }
