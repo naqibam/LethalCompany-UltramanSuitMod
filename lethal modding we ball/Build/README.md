@@ -1,16 +1,16 @@
-
-# Ultraman Skin v1.6.0
+# Ultraman Skin
 Kaiju busting doesn't pay the bills anymore, so the Giants of Light hailing from M78 have come to work for The Company!
 
-Adds 6 Ultraman suits to Lethal Company (More incoming maybe if I find more models?)
+Adds 7 Ultraman suits to Lethal Company
 - Ultraman
 - Ultraseven
 - Ultraman Mebius
 - Ultraman Tiga
 - Ultraman Dyna
 - Ultraman Gaia
+- Ultraman Zero
 
-# Something wrong?
+# Something wrong or need to ask something?
 Feel free to DM me on Discord at 'naqibam' on the [Lethal Company Modding discord](https://discord.gg/lcmod)
 
 # Images
@@ -25,7 +25,7 @@ Image examples of the skins in-game
 Ultraman and Ultraseven model - [ULTRAMAN (RIG UPDATED)](https://skfb.ly/oLOqB) and [ULTRASEVEN (RIGGED)](https://skfb.ly/oLDnR) by RED COMET 0079 is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 
 
-Mebius, Tiga, Dyna and Gaia model - [NeoUltimo](https://steamcommunity.com/id/NeoUltimo/myworkshopfiles/?appid=1840) for porting the model to the Steam Workshop
+Mebius, Zero, Tiga, Dyna and Gaia model - [NeoUltimo](https://steamcommunity.com/id/NeoUltimo/myworkshopfiles/?appid=1840) for porting the model to the Steam Workshop
 
 ## Changelog
 	- v0.1.0
@@ -52,3 +52,7 @@ Mebius, Tiga, Dyna and Gaia model - [NeoUltimo](https://steamcommunity.com/id/Ne
 		- Adds Mebius suit
 	- v1.6.0
 		- Adds Tiga, Dyna and Gaia
+	- v2.0.0
+		- Adds Zero
+		- Better suit textures for wardrobe
+		- Added config setting to use the default player model but with custom ultraman suit textures instead
