@@ -9,27 +9,44 @@ using System.Xml.Linq;
 
 namespace ModelReplacement
 {
-    [BepInPlugin("com.naqibam.UltramanSkin", "Ultraman Skin", "1.3.0")]
+    [BepInPlugin("com.naqibam.UltramanSkin", "Ultraman Skin", "2.0.0")]
     [BepInDependency("meow.ModelReplacementAPI", BepInDependency.DependencyFlags.HardDependency)]
-	[BepInDependency("x753.More_Suits", BepInDependency.DependencyFlags.HardDependency)]
-	public class Plugin : BaseUnityPlugin
+    [BepInDependency("x753.More_Suits", BepInDependency.DependencyFlags.HardDependency)]
+    public class Plugin : BaseUnityPlugin
     {
+	public static ConfigFile config;
+	
+	// Universal config options 
+	public static ConfigEntry<bool> enableCustomModels { get; private set; }
+	
+	
+	private static void InitConfig()
+	{
+		enableCustomModels = config.Bind<bool>("Suits to Replace Settings", "Enable Custom models", true, "Disable to use the default player model but use the custom ultraman suit texture instead");
+	
+	}
+	
+	private void Awake()
+	{
+		config = base.Config;
+		InitConfig();
+		Assets.PopulateAssets();
 
-        private void Awake()
-        {
-            Assets.PopulateAssets();
-
-            ModelReplacementAPI.RegisterSuitModelReplacement("Ultraman", typeof(ULTRAMAN));
+		if (enableCustomModels.Value)
+		{
+			ModelReplacementAPI.RegisterSuitModelReplacement("Ultraman", typeof(ULTRAMAN));
 			ModelReplacementAPI.RegisterSuitModelReplacement("Ultraseven", typeof(ULTRASEVEN));
 			ModelReplacementAPI.RegisterSuitModelReplacement("Mebius", typeof(MEBIUS));
 			ModelReplacementAPI.RegisterSuitModelReplacement("Tiga", typeof(TIGA));
 			ModelReplacementAPI.RegisterSuitModelReplacement("Dyna", typeof(DYNA));
 			ModelReplacementAPI.RegisterSuitModelReplacement("Gaia", typeof(GAIA));
-
-			Harmony harmony = new Harmony("com.naqibam.UltramanSkin");
-            harmony.PatchAll();
-            Logger.LogInfo($"Plugin {"com.naqibam.UltramanSkin"} is loaded!");
-        }
+			ModelReplacementAPI.RegisterSuitModelReplacement("Zero", typeof(ZERO));
+	
+		}
+  		Harmony harmony = new Harmony("com.naqibam.UltramanSkin");
+	    	harmony.PatchAll();
+	    	Logger.LogInfo($"Plugin {"com.naqibam.UltramanSkin"} is loaded!");
+	}
     }
     public static class Assets
     {
